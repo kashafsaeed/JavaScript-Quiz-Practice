@@ -63,33 +63,84 @@
 
 
 //q:9
+// var names = ["hira","sana","warisha","dania"]
 
-// var arr = ["karachi", "Lahore", "Multan" , "Islamabad", "Naran"];
-// var flag = false;
-// for ( var i = 0; i < arr.length ; i++ ) {
-//     if (arr[i] == "Islamabad")
-//     flag = true; 
-// }
-// if (flag){
-//     console.log("mil gaya")
-// }else {
-//     console.log("nahi mila")
+// for ( var i = 0; i < names.length ; i++ ) {
+//         console.log(names[i]);
 // }
 
 
 //q:10
 
-var arr = ["karachi", "Lahore", "Multan" , "Islamabad", "Naran"];
-var flag = "no";
-for ( var i = 0; i < arr.length ; i++ ) {
-    if (arr[i] == "Lahore") {
-    flag = "yes"; 
-    console.log("mil gaya");
-    }
+
+// for (var i = 0; i < 4; i++) {
+//     console.log(i);
+
+//     if (i == 2) {
+//         break;
+//     }
+
+// }
+
+//q:11
+
+//  for (var i = 0; i < 4; i++) {
+//     console.log(i);
+
+//     if (i == 2) {
+//         break;
+        
+        
+//     }
+//     console.log("hi");
+
+// }
+
+//q:12
+
+// for (var i = 0; i < 4; i++) {
+//     console.log(i);
+//             console.log("hi");
+//     // This will print "hi" for each iteration
+//     // but will break the loop when i equals 2
+//     if (i == 2) {
+//         break;
+
+        
+//     }
+
+// }
+
+//q:13
+
+// for (var i = 0; i < 4; i++) {
+//   console.log(i);  //0
+  
+//         break;
+// }
+
+
+//q:14
+
+// for (var i = 0; i < 4; i++) {
+
+  
+//    if(" hi "){
+//       console.log(i);
+//     break;
+// }
+
+// console.log(i);
+// }
+
+//q:15
+
+// if ("0") console.log("Yes")
+
+
+//q:16
+if (null || undefined) {
+  console.log("A");
+} else {
+  console.log("B");
 }
-
-if (flag === "no")  {
-    console.log("nahi mila");
-
-}
-
